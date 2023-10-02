@@ -1,12 +1,12 @@
 terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
+  cloud {
     organization = "pitt412"
 
     workspaces {
-      prefix = "infra-"
+      name = "ec2"
     }
   }
+
 
   required_providers {
     aws = {
