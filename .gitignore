@@ -2,3 +2,5 @@
 .terraform/**
 .terraform.lock.hcl
 .tfstate
+workspaces/.terraform
+workspaces/.terraform.lock.hcl
