@@ -3,7 +3,7 @@ terraform {
     organization = "pitt412"
 
     workspaces {
-      name = "vpc"
+      name = "infravpc"
     }
   }
 

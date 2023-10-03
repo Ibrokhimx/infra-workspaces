@@ -3,7 +3,7 @@ terraform {
     organization = "pitt412"
 
     workspaces {
-      name = "ec2"
+      name = "infra-ec2"
     }
   }
 
